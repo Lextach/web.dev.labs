@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+}
+
+.main-table {
+	width: 100vw;
+	height: 100vh;
+	border-collapse: collapse;
+}
+
+.first-row {
+	height: 15vh;
+	background-color: rgb(197, 171, 210);
+}
+
+.second-row {
+	height: 10vh;
+	background-color: rgb(93, 111, 38);
+
+}
+
+.third-row {
+	height: 50vh;
+}
+
+.fourth-row {
+	height: 10vh;
+	background-color: rgb(12, 115, 82);
+}
+
+.fifth-row {
+	min-height: 15vh;
+	background-color: rgb(255, 180, 89);
+}
+
+.left-column {
+	width: 20vw;
+	background-color: rgb(181, 83, 139);
+	vertical-align: top;
+}
+
+.center-column {
+	width: 60vw;
+	background-color: rgb(25, 188, 133);
+	vertical-align: top;
+}
+
+.right-column {
+	width: 20vw;
+	background-color: rgb(32, 54, 111);
+	vertical-align: top;
+}
+
+.Title {
+	width: 15vw;
+	text-align: center;
+}
