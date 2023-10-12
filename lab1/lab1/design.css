@@ -1,0 +1,133 @@
+body {
+	margin: 0px;
+	padding: 0;
+	font: normal 20px "Times New Roman", Times, serif;
+}
+
+header {
+	background-color: rgb(179, 218, 255);
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	width: 100%;
+	min-height: 15vh;
+	padding: 10px;
+	justify-content: space-between;
+	word-spacing: 100px;
+}
+
+.TitleX {
+	background-color: aquamarine;
+}
+
+.header_text {
+	text-align: right;
+}
+
+
+.full-main {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	min-height: 75vh;
+
+}
+
+.main-right {
+	background-color: rgb(185, 180, 149);
+	width: 26vw;
+	order: 1;
+
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: start;
+
+}
+
+footer {
+	flex-direction: row;
+	background-color: rgb(141, 130, 151);
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 10px;
+}
+
+.TitleY {
+	background-color: aquamarine;
+
+}
+
+.footertext {
+	justify-self: start;
+	text-align: right;
+	width: 90%;
+	padding: 10px;
+}
+
+.main-up {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 90;
+}
+
+.main-left {
+	background-color: rgb(252, 165, 255);
+	display: flex;
+	width: 30vw;
+	padding: 1px;
+	font-size: 26px;
+}
+
+.main-center {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+}
+
+.center-up {
+	background-color: rgb(146, 244, 211);
+	display: flex;
+	flex-direction: column;
+	flex-grow: 85;
+	padding: 5px;
+}
+
+.center-low {
+	background-color: aqua;
+	display: flex;
+}
+
+.center-upper {
+	background-color: aqua;
+	display: flex;
+}
+
+table,
+th,
+td {
+	border: 1px solid grey;
+	text-align: center;
+}
+
+th,
+td {
+	padding: 10px;
+}
+
+caption {
+	font-size: 30px;
+	color: rgb(85, 74, 189);
+}
+
+img {
+	width: 50vh;
+	height: 50vh;
+}
